@@ -29,12 +29,14 @@ Prerequisites
 1.	Download and install Kafka.
 
 2.	Start the Zookeeper server:
-      bin/zookeeper-server-start.sh config/zookeeper.properties
+   
+        bin/zookeeper-server-start.sh config/zookeeper.properties
 
-3.	Start the 3 Kafka brokers:
-    bin/kafka-server-start.sh config/server.properties
-      bin/kafka-server-start.sh config/server-1.properties
-      bin/kafka-server-start.sh config/server-2.properties
+4.	Start the 3 Kafka brokers:
+   
+        bin/kafka-server-start.sh config/server.properties
+  	    bin/kafka-server-start.sh config/server-1.properties
+        bin/kafka-server-start.sh config/server-2.properties
 
 **Starting the Consumer**
 1.	Compile and run the Tuneify Reporting Service (Kafka consumer).
